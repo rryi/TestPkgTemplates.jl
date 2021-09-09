@@ -1,0 +1,31 @@
+code testadd and its test
+
+(TestPkgTemplates) pkg> st
+     Project TestPkgTemplates v0.1.0
+      Status `C:\Users\RR\julia\TestPkgTemplates\Project.toml` (empty project)
+
+
+(TestPkgTemplates) pkg> test
+     Testing TestPkgTemplates
+      Status `R:\Temp\jl_cznAVa\Project.toml`
+  [1dc15e0c] TestPkgTemplates v0.1.0 `C:\Users\RR\julia\TestPkgTemplates`
+  [8dfed614] Test `@stdlib/Test`
+      Status `R:\Temp\jl_cznAVa\Manifest.toml`
+  [1dc15e0c] TestPkgTemplates v0.1.0 `C:\Users\RR\julia\TestPkgTemplates`
+  [2a0f44e3] Base64 `@stdlib/Base64`
+  [b77e0a4c] InteractiveUtils `@stdlib/InteractiveUtils`
+  [56ddb016] Logging `@stdlib/Logging`
+  [d6f4376e] Markdown `@stdlib/Markdown`
+  [9a3f8284] Random `@stdlib/Random`
+  [9e88b42a] Serialization `@stdlib/Serialization`
+  [8dfed614] Test `@stdlib/Test`
+Precompiling project...
+  ? TestPkgTemplates
+  1 dependency successfully precompiled in 1 seconds
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+     Testing Running tests...
+Test Summary:       | Pass  Total
+TestPkgTemplates.jl |    1      1
+     Testing TestPkgTemplates tests passed 
+
+(TestPkgTemplates) pkg> 
